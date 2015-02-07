@@ -3,7 +3,7 @@ import os
 
 from flask import Flask, render_template
 
-from .constants import DEPARTEMENTS
+from constants import DEPARTEMENTS
 
 app = Flask(__name__)
 
